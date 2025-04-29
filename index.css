@@ -1,0 +1,206 @@
+.container{
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap:1.6rem ;
+    padding: 100px;
+    margin-bottom:1.6rem ;
+   
+}
+.card{
+    box-shadow: 2px 2px 12px rgb(181, 234, 234);
+    border-radius: 4px;
+    background-color: azure;
+    width: 270px;
+    text-align: center;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.foot{
+    background-color: black;
+}
+.project{
+    box-shadow: 2px 2px 12px rgb(85, 86, 86);
+    margin-left: 100px;
+}
+.p1{
+  width: 370px;
+  height: 80px;
+  font-size:50px;
+}
+
+.skill{
+    margin-left: 300px;
+    margin-top: 50px;
+  display: flex;
+ 
+  height: 250px;
+    box-shadow: 2px 2px 12px rgb(85, 86, 86);
+}
+.skill1,.skill2{
+    margin-left: 10px;
+    margin-top: 50px;
+    height: 250px;
+    box-shadow: 2px 2px 12px rgb(85, 86, 86);
+}
+.space{
+   
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap');
+
+
+
+.contact-container {
+  background:whitesmoke;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 450px;
+  margin: auto;
+  text-align: center;
+  box-shadow: 0 8px 32px rgb(75, 80, 80);
+  animation: fadeIn 1.5s ease;
+}
+
+.contact-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #161515;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #161515;
+  font-size: 1rem;
+}
+.p2{
+  width:450px; 
+    margin-top: 30px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-size: 14px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.contact-form button {
+  background: linear-gradient(135deg, #8fd3f4, #84fab0);
+  border: none;
+  padding: 12px;
+  font-size: 1rem;
+  color: #333;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.contact-form button:hover {
+  transform: translateY(-3px);
+}
+.imgdiv .im{
+  border-radius: 50%;
+  margin-left: 250px;
+  margin-top: 100px; 
+  width:380px; 
+  height:450px;
+  margin-right: 50px;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.p1b{
+  color: firebrick;
+  font-size: 50px;
+}
+.contact-info a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.p1div{
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 25px;
+}
+.part1{
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+}
+
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.project{
+  display: flex;
+  
+width: 1000px;
+}
+
+@media(max-width:600px){
+      
+           .p1{
+          width:250px; 
+          margin-top: 30px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+          font-size: 10px;
+         }
+         .p1div{
+          margin-top: 50px;
+          margin-left: 0px;
+          font-size: 10;
+          margin-right: 0px;
+         }
+         .p2{
+          width:250px; 
+          margin-top: 30px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+          font-size: 10px;
+         }
+         .part1{
+          flex-direction:row;
+          
+          margin-left: 0px;
+
+         }
+         .imgdiv .im{
+          border-radius: 50%;
+          margin-left: 20px;
+          margin-top: 10px; 
+          width:30px; 
+          height:40px;
+          margin-right: 50px;
+        }
+        
+         #section{
+          height: 40vh;
+       
+         }
+          
+}
